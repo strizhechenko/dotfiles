@@ -1,0 +1,14 @@
+[user]
+	email = 
+	name = Oleg Strizhechenko
+[sendemail]
+	smtpEncryption = tls
+	smtpServer = smtp.gmail.com
+	smtpUser = 
+	smtpServerPort = 587
+[push]
+	default = matching
+[commit]
+	template = /Users/oleg/.git-commit-template
+[color]
+	ui = true
