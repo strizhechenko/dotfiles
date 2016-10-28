@@ -1,0 +1,31 @@
+# Type(<subsys>): <human-oriented short text>
+
+# <details for developers>
+
+# <github issue link>
+
+# Types:
+# ------
+# * Added (new feature)
+# * Fixed (some bug)
+# * Formatting (no logic changed)
+# * Refactoring (perfectionism time!)
+# * Tests (yes, you need to write them)
+
+# Subsystems:
+# -----------
+# * Classname/something
+# * Firewall
+# * Utils
+# * UI
+# * Core
+
+# Commit example:
+# ---------------
+# Added(utils): net_rx_top, shows recieve packets workload scaling among CPUs
+#
+# Shows deriviative of NET_RX from /proc/softirqs with interval 1 second + current L/A from uptime
+# Gives a small L/A increase itself.
+# Useful to check correctness of manually tuned RPS/RSS.
+#
+# CR-228
